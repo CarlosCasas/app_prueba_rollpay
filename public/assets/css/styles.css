@@ -1,0 +1,44 @@
+body.login {
+    background: url(../images/login/backgroud.png);
+
+}
+
+.container {
+    max-width: fit-content;
+}
+
+.login-bg {
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh);
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    gap: 100px;
+}
+
+.h1 {
+    color: #75b798;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+/* Card Login*/
+.card-login {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+}
+
+/******* DASHBOARD *****/
+
+.dashboard-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    gap: 100px;
+}
